@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "parent"]
+	url = https://github.com/jenkinsci/git-plugin
+	fetch = +refs/heads/*:refs/remotes/parent/*
+[remote "child-1"]
+	url = https://github.com/jenkinsci/git-client-plugin
+	fetch = +refs/heads/*:refs/remotes/child-1/*
+[remote "child-2"]
+	url = https://github.com/jenkinsci/platformlabeler-plugin
+	fetch = +refs/heads/*:refs/remotes/child-2/*
